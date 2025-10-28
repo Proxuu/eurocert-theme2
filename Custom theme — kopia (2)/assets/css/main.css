@@ -901,97 +901,70 @@ body {
 }
 
 
-.fr-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    padding: 0.70rem 3rem;
-    border-radius: 60px;
-    font-weight: 600;
-    font-size: 14px;
-    text-decoration: none;
-    border: 2px solid transparent;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    white-space: wrap;
-}
-
-.fr-btn-primary {
-    background-color: var(--eurocert-primary-blue);
-    color: white;
-    border-color: var(--eurocert-primary-blue);
-}
-
-.fr-btn-primary:hover {
-    background-color: rgba(0, 100, 188, 0.9);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 100, 188, 0.3);
-    color: white !important;
-}
-
-.fr-btn-secondary {
-    background-color: var(--eurocert-secondary-blue);
-    color: var(--eurocert-primary-blue);
-    border-color: var(--eurocert-secondary-blue);
-}
-
-.fr-btn-secondary:hover {
-    background-color: rgba(230, 240, 248, 0.8);
-}
-
-.fr-btn-outline {
-    background-color: transparent;
-    color: var(--eurocert-primary-blue);
-    border-color: var(--eurocert-primary-blue);
-}
-
-.fr-btn-outline:hover {
-    background-color: var(--eurocert-primary-blue);
-    color: white;
-}
-
-.fr-btn-white {
+/* Additional Bootstrap Button Variants */
+.btn-light {
     background-color: white;
-    color: var(--eurocert-primary-blue);
     border-color: white;
+    color: var(--eurocert-primary-blue);
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 0.70rem 3rem;
+    font-size: 14px;
+    transition: all 0.2s ease;
 }
 
-.fr-btn-white:hover {
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
     background-color: rgba(255, 255, 255, 0.9);
+    border-color: rgba(255, 255, 255, 0.9);
+    color: var(--eurocert-primary-blue);
     transform: scale(1.05);
     box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
 }
 
-.fr-btn-outline-white {
+.btn-outline-light {
     background-color: rgba(255, 255, 255, 0.1);
-    color: white;
     border-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 0.70rem 3rem;
+    font-size: 14px;
+    transition: all 0.2s ease;
     backdrop-filter: blur(10px);
 }
 
-.fr-btn-outline-white:hover {
+.btn-outline-light:hover,
+.btn-outline-light:focus,
+.btn-outline-light:active {
     background-color: rgba(255, 255, 255, 0.2);
     border-color: rgba(255, 255, 255, 0.5);
+    color: white;
 }
 
-.fr-btn-link {
+.btn-link {
     background-color: transparent;
+    border: none;
     color: var(--eurocert-primary-blue);
     text-decoration: underline;
     text-underline-offset: 4px;
     text-decoration-thickness: 2px;
-    padding: 0;
+    padding: 0.70rem 3rem;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.2s ease;
 }
 
-.fr-btn-link:hover {
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
     color: rgba(0, 100, 188, 0.8);
 }
 
-.fr-btn-sm {
+.btn-sm {
     padding: 0.5rem 1.5rem;
     font-size: 12px;
-    margin-top: 1rem;
 }
 
 /* Features Section */
@@ -1585,19 +1558,6 @@ body {
     font-weight: 500;
 }
 
-.fr-btn-table {
-    margin-top: 1rem;
-    padding: 0.5rem 1.5rem;
-    font-size: 12px;
-    transform: scale(1);
-    transition: all 0.3s ease;
-}
-
-.fr-btn-table:hover {
-    background-color: rgba(0, 100, 188, 0.9);
-    box-shadow: 0 4px 12px rgba(0, 100, 188, 0.3);
-    transform: scale(1.05);
-}
 
 .fr-comparison-table tbody tr {
     transition: background-color 0.2s ease;
@@ -3360,23 +3320,6 @@ body {
 }
 
 /* Buttons */
-.sp-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.75rem;
-    width: 100%;
-    padding: 0.7rem 3rem;
-    border-radius: 60px;
-    font-weight: 600;
-    font-size: 0.875rem;
-    letter-spacing: 0.5px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    border: 2px solid;
-    text-transform: uppercase;
-    white-space: nowrap;
-}
 
 .cart button {
     background-color: var(--eurocert-primary-blue);
@@ -3403,18 +3346,6 @@ body {
     background-color: rgba(0, 100, 188, 0.9);
 }
 
-.sp-btn-secondary {
-    background-color: var(--eurocert-secondary-blue);
-    color: var(--eurocert-primary-blue);
-    border-color: var(--eurocert-secondary-blue);
-    font-size: 0.875rem;
-    width: fit-content;
-    text-decoration: none;
-}
-
-.sp-btn-secondary:hover {
-    background-color: rgba(230, 240, 248, 0.8);
-}
 
 .sp-cart-icon {
     width: 1.25rem;

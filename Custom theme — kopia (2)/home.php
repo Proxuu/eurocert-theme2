@@ -62,7 +62,7 @@ get_header();
             // print all
             $all_url = $base_url . $search_param;
           ?>
-          <a style="font-weight: 500;" href="<?php echo esc_url( $all_url ); ?>" class="fr-btn <?php echo $current_cat===0 ? 'fr-btn-primary' : 'btn-outline-primary'; ?>">WSZYSTKIE ARTYKUŁY</a>
+          <a style="font-weight: 500;" href="<?php echo esc_url( $all_url ); ?>" class="btn <?php echo $current_cat===0 ? 'btn-primary' : 'btn-outline-primary'; ?>">WSZYSTKIE ARTYKUŁY</a>
 
           <?php foreach ( $categories as $cat ) : 
             // build link keeping search param if any

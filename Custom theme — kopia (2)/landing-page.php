@@ -357,8 +357,8 @@ get_header();
                                 </div>
                             </div>
                             <div class="fr-product-actions">
-                                <button class="fr-btn fr-btn-primary w-100">SKONFIGURUJ PRODUKT</button>
-                                <button class="fr-btn fr-btn-link">WIĘCEJ O PRODUKCIE</button>
+                                <button class="btn btn-primary w-100">SKONFIGURUJ PRODUKT</button>
+                                <button class="btn btn-link">WIĘCEJ O PRODUKCIE</button>
                             </div>
                         </div>
                     </div>
@@ -398,8 +398,8 @@ get_header();
                                 </div>
                             </div>
                             <div class="fr-product-actions">
-                                <button class="fr-btn fr-btn-primary w-100">SKONFIGURUJ PRODUKT</button>
-                                <button class="fr-btn fr-btn-link">WIĘCEJ O PRODUKCIE</button>
+                                <button class="btn btn-primary w-100">SKONFIGURUJ PRODUKT</button>
+                                <button class="btn btn-link">WIĘCEJ O PRODUKCIE</button>
                             </div>
                         </div>
                     </div>
@@ -409,7 +409,7 @@ get_header();
                 </div>
                 <div class="fr-help-box">
                     <p>Masz pytania lub potrzebujesz porady?</p>
-                    <button class="fr-btn fr-btn-outline">ZAMÓW ROZMOWĘ
+                    <button class="btn btn-outline-primary">ZAMÓW ROZMOWĘ
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"></path></svg>
                     </button>
                 </div>
@@ -441,7 +441,7 @@ get_header();
                                             <div class="fr-product-name-line">podpis elektroniczny</div>
                                             <div class="fr-product-name-line">na karcie</div>
                                             <div class="fr-product-subtitle">QES Sign Classic</div>
-                                            <button class="fr-btn fr-btn-primary fr-btn-table">KUP ONLINE</button>
+                                            <button class="btn btn-primary">KUP ONLINE</button>
                                         </div>
                                     </th>
                                     <th class="fr-table-header-product text-center">
@@ -450,7 +450,7 @@ get_header();
                                             <div class="fr-product-name-line">podpis elektroniczny</div>
                                             <div class="fr-product-name-line">w chmurze</div>
                                             <div class="fr-product-subtitle">QES Sign Cloud</div>
-                                            <button class="fr-btn fr-btn-primary fr-btn-table">KUP ONLINE</button>
+                                            <button class="btn btn-primary">KUP ONLINE</button>
                                         </div>
                                     </th>
                                 </tr>
@@ -1130,8 +1130,8 @@ get_header();
                     <h2 class="fr-cta-title">Podpisuj dokumenty bezpiecznie i legalnie!</h2>
                     <p class="fr-cta-text">Dołącz do tysięcy zadowolonych klientów i zacznij podpisywać dokumenty elektronicznie już dziś. Wybierz najlepsze rozwiązanie dla swojej firmy.</p>
                     <div class="fr-cta-buttons">
-                        <button class="fr-btn fr-btn-white">KUP PODPIS ONLINE</button>
-                        <button class="fr-btn fr-btn-outline-white">POROZMAWIAJ Z NAMI</button>
+                        <button class="btn btn-light">KUP PODPIS ONLINE</button>
+                        <button class="btn btn-outline-light">POROZMAWIAJ Z NAMI</button>
                     </div>
                     <div class="fr-cta-features">
                         <div class="fr-feature-item">
@@ -1182,7 +1182,7 @@ get_header();
                                     </label>
                                 </div>
                             </div>
-                            <button type="submit" class="fr-btn fr-btn-primary w-100">WYŚLIJ WIADOMOŚĆ</button>
+                            <button type="submit" class="btn btn-primary w-100">WYŚLIJ WIADOMOŚĆ</button>
                         </form>
                     </div>
                 </div>
