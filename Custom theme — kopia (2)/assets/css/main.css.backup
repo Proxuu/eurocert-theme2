@@ -1,26 +1,11 @@
-/* ============================================
-   EUROCERT CUSTOM THEME STYLESHEET
-   Main CSS File - Organized and Optimized
-   ============================================ */
-
-/* ============================================
-   1. CSS VARIABLES
-   ============================================ */
-
-:root {
-    --eurocert-primary-blue: #0064bc;
-    --eurocert-dark-blue: #001959;
-    --eurocert-medium-blue: #808cac;
-    --eurocert-secondary-blue: #e6f0f8;
-    --eurocert-light-background: #f3f8fc;
-    --eurocert-cyan: #00d4ff;
-    --eurocert-cyan-light: #33c3f2;
+:root{
+  --pc: #0064BC;
+  --sc: #001959;
+  --ac: #00c8f1;
+  --bg: #ffffff;
+  --tc: #001959;
+  --tc2: #808CAC;
 }
-
-/* ============================================
-   2. GLOBAL STYLES
-   ============================================ */
-
 
 
 
@@ -67,14 +52,14 @@ html, body {
 .menu-top .dropdown-toggle::after,
 .mobile-menu .dropdown-toggle,
 .mobile-menu .dropdown-toggle::after {
-  color: var(--eurocert-dark-blue) !important;
+  color: var(--sc) !important;
 }
 
 /* Zmiana koloru tekstu i SVG po najechaniu */
 .navbar .dropdown-toggle:hover,
 .menu-top .dropdown-toggle:hover,
 .mobile-menu .dropdown-toggle:hover {
-  color: var(--eurocert-primary-blue) !important;
+  color: var(--pc) !important;
 }
 .navbar .dropdown-toggle:hover::after,
 .menu-top .dropdown-toggle:hover::after,
@@ -89,22 +74,22 @@ html, body {
 }
 .primary-menu .dropdown-menu a{
   font-weight: 500 !important;
-  color: var(--eurocert-dark-blue);
+  color: var(--sc);
 }
 
 .menu-top .nav-link {
-  color: var(--eurocert-medium-blue) !important;
+  color: var(--tc2) !important;
   font-size: 14px;
 }
 .menu-top .nav-link:hover{
-  color: var(--eurocert-primary-blue) !important;
+  color: var(--pc) !important;
 }
 .menu-top .dropdown-item{
-  color: var(--eurocert-medium-blue) !important;
+  color: var(--tc2) !important;
   font-size: 14px;
 }
 .menu-top .dropdown-item:hover{
-    color: var(--eurocert-primary-blue) !important;
+    color: var(--pc) !important;
 }
 
 .trp-shortcode-switcher__wrapper{
@@ -125,20 +110,20 @@ html, body {
   font-size: 14px !important;
 }
 .trp-language-item:hover{
-  background-color: rgba(0, 100, 188, 0.14) !important;
+  background-color: #0064bc23 !important;
   transition: all .2s ease-in-out;
 }
 
 .lang-svg{
-  color: var(--eurocert-medium-blue) !important;
+  color: var(--tc2) !important;
   margin-right: -10px !important;
 }
 .lang-wrapper:hover .lang-svg,
 .lang-wrapper:hover .trp-shortcode-arrow,
 .lang-wrapper:hover .trp-language-item-name
  {
-    color: var(--eurocert-primary-blue) !important;
-    stroke: var(--eurocert-primary-blue) !important;
+    color: var(--pc) !important;
+    stroke: var(--pc) !important;
     transition: all .2s ease-in-out;
 }
 .trp-shortcode-arrow{
@@ -147,7 +132,7 @@ html, body {
 }
 
 .mobile-menu a{
-  color: var(--eurocert-dark-blue) !important;
+  color: var(--sc) !important;
   font-weight: 500;
 }
 
@@ -208,7 +193,7 @@ html, body {
 }
 #menu-menu-glowne > li:first-child .dropdown-menu a:hover,
 #menu-menu-glowne > li:last-child .dropdown-menu a:hover {
-  color: var(--eurocert-primary-blue) !important;
+  color: var(--pc) !important;
 }
 
 #menu-menu-glowne > li:first-child .dropdown-menu .dropdown-menu {
@@ -241,13 +226,13 @@ html, body {
 
 #menu-menu-glowne > li:first-child .dropdown-menu .dropdown-menu a,
 #menu-menu-glowne > li:last-child .dropdown-menu .dropdown-menu a {
-  color: var(--eurocert-medium-blue) !important;
+  color: var(--tc2) !important;
   padding-left: 0 !important;
   padding-block: 0 !important;
 }
 #menu-menu-glowne > li:first-child .dropdown-menu .dropdown-menu a:hover,
 #menu-menu-glowne > li:last-child .dropdown-menu .dropdown-menu a:hover {
-  color: var(--eurocert-primary-blue) !important;
+  color: var(--pc) !important;
 }
 
 .last-product-item {
@@ -284,11 +269,11 @@ html, body {
   border-radius: 10px;
 }
 .last-product-item:hover a{
-  background-color: var(--eurocert-primary-blue) !important;
+  background-color: var(--pc) !important;
   transition: all 0.2s ease;
 }
 .last-product-item:hover{
-  background-color: var(--eurocert-primary-blue) !important;
+  background-color: var(--pc) !important;
   transition: all 0.2s ease;
 }
 
@@ -314,7 +299,7 @@ html, body {
 }
 
 .all-products span {
-  color: var(--eurocert-primary-blue) !important;
+  color: var(--pc) !important;
   position: relative;
 }
 
@@ -324,12 +309,12 @@ html, body {
 .all-products{
   width: fit-content;
   padding-block: 15px !important;
-  border-top: 1px solid rgba(128, 140, 172, 0.16);
+  border-top: 1px solid #808cac2a;
   margin-top: 15px;
   
 }
 .all-products span {
-  color: var(--eurocert-primary-blue) !important;
+  color: var(--pc) !important;
   font-weight: 600;
   position: relative;
   transition: transform 0.2s ease;
@@ -363,74 +348,14 @@ html, body {
 }
 
 
-/* Bootstrap Button Overrides */
-.btn-primary {
-  background-color: var(--eurocert-primary-blue);
-  border-color: var(--eurocert-primary-blue);
-  color: #fff;
-  font-weight: 600;
-  border-radius: 25px;
-  padding: 0.70rem 3rem;
-  font-size: 14px;
-  transition: all 0.2s ease;
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active {
-  background-color: rgba(0, 100, 188, 0.9);
-  border-color: rgba(0, 100, 188, 0.9);
-  color: white !important;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 100, 188, 0.3);
-}
-
-.btn-secondary {
-  background-color: var(--eurocert-secondary-blue);
-  border-color: var(--eurocert-secondary-blue);
-  color: var(--eurocert-primary-blue);
-  font-weight: 600;
-  border-radius: 25px;
-  padding: 0.70rem 3rem;
-  font-size: 14px;
-  transition: all 0.2s ease;
-}
-
-.btn-secondary:hover,
-.btn-secondary:focus,
-.btn-secondary:active {
-  background-color: rgba(230, 240, 248, 0.8);
-  border-color: rgba(230, 240, 248, 0.8);
-  color: var(--eurocert-primary-blue);
-}
-
-.btn-outline-primary {
-  color: var(--eurocert-primary-blue) !important;
-  border: 1.5px solid var(--eurocert-primary-blue);
-  border-radius: 25px;
-  padding: 0.70rem 3rem;
-  font-weight: 600;
-  font-size: 14px;
-  transition: all 0.2s ease;
-}
-
-.btn-outline-primary:hover,
-.btn-outline-primary:focus,
-.btn-outline-primary:active {
-  background-color: var(--eurocert-primary-blue);
-  border-color: var(--eurocert-primary-blue);
-  color: white !important;
-}
-
-/* Legacy button classes - kept for backward compatibility */
 .btn-shop {
   display: inline-block;
-  background-color: var(--eurocert-primary-blue);
-  color: #fff;
-  border-radius: 25px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: all 0.2s ease;
+  background-color: var(--pc);
+  color: #fff;              
+  border-radius: 25px;       
+  text-decoration: none;     
+  font-weight: 600;          
+  transition: all 0.2s ease; 
   font-size: 14px;
   width: 250px;
   min-height: 45px;
@@ -445,13 +370,12 @@ html, body {
 }
 
 @media (max-width: 1280px) {
-  .btn-shop {
+  .btn-shop{
     width: 180px;
   }
 }
-
 .cart-btn {
-  background-color: var(--eurocert-secondary-blue);
+  background-color: #e6f0f8;
   min-height: 45px;
   min-width: 45px;
   max-height: 45px;
@@ -461,7 +385,6 @@ html, body {
   align-items: center;
   justify-content: center;
   transition: all 0.3s, transform 0.2s;
-  border: none;
 }
 
 @media (max-width: 576px) {
@@ -472,18 +395,16 @@ html, body {
     max-width: 40px;
   }
 }
-
 .cart-btn:hover {
-  background-color: var(--eurocert-primary-blue);
+  background-color: var(--pc);
   transform: scale(1.07);
 }
-
 .cart-btn:hover .cart-svg {
   stroke: #fff;
 }
 
 .hamburger-btn {
-  background-color: var(--eurocert-secondary-blue);
+  background-color: #e6f0f8;
   min-height: 45px;
   min-width: 45px;
   max-height: 45px;
@@ -506,7 +427,7 @@ html, body {
 }
 
 .hamburger-btn:hover {
-  background-color: var(--eurocert-primary-blue);
+  background-color: var(--pc);
   transform: scale(1.07);
 }
 
@@ -515,7 +436,7 @@ html, body {
 }
 
 .hamburger-svg {
-  stroke: var(--eurocert-primary-blue);
+  stroke: var(--pc);
   transition: all 0.2s ease;
 }
 
@@ -530,12 +451,12 @@ html, body {
 .mobile-menu a{
   white-space: wrap !important;
   position: relative !important;
-  color: var(--eurocert-dark-blue);
+  color: var(--sc);
   font-weight: 500;
   padding-block: 8px;
 }
 .mobile-menu a:hover{
-  color: var(--eurocert-primary-blue);
+  color: var(--pc);
 }
 
 .mobile-menu .dropdown-menu .dropdown-menu{
@@ -547,11 +468,11 @@ html, body {
 }
 
 .mobile-menu .dropdown-menu .dropdown-menu a{
-  color: var(--eurocert-medium-blue);
+  color: var(--tc2);
   font-weight: 500 !important;
 }
 .mobile-menu .dropdown-menu .dropdown-menu a:hover{
-  color: var(--eurocert-primary-blue);
+  color: var(--pc);
 }
 
 .mobile-menu .all-products{
@@ -568,12 +489,12 @@ html, body {
 
 
 .top1-mobile-menu a{
-  color: var(--eurocert-medium-blue) !important;
+  color: var(--tc2) !important;
   font-weight: 400;
 }
 
 .top1-mobile-menu a:hover{
-  color: var(--eurocert-primary-blue);
+  color: var(--pc);
 }
 .top1-mobile-menu .dropdown-menu{
   display: block;
@@ -593,7 +514,7 @@ html, body {
 }
 
 .footer-menu a{
-  color: var(--eurocert-medium-blue);
+  color: var(--tc2);
   text-decoration: none;
   transition: all .2s ease;
 }
@@ -609,22 +530,21 @@ html, body {
   }
 }
 .footer-menu a:hover{
-  color: var(--eurocert-primary-blue);
+  color: var(--pc);
 }
-.btn-contact {
+.btn-contact{
   width: 180px !important;
 }
 
-.btn-number {
-  background-color: var(--eurocert-secondary-blue);
-  color: var(--eurocert-primary-blue);
+.btn-number{
+  background-color: #e6f0f8;
+  color: var(--pc);
   width: 220px !important;
 }
-
-.btn-number:hover {
+.btn-number:hover{
   background-color: #eef5fa !important;
   filter: brightness(1) !important;
-  color: var(--eurocert-primary-blue) !important;
+  color: var(--pc) !important;
 }
 hr{
   opacity: 0.1;
@@ -661,11 +581,14 @@ hr{
 
 
 :root {
-
-/* ============================================
-   3. COMPONENT STYLES
-   ============================================ */
-
+    --eurocert-primary-blue: #0064bc;
+    --eurocert-dark-blue: #001959;
+    --eurocert-medium-blue: #808cac;
+    --eurocert-secondary-blue: #e6f0f8;
+    --eurocert-light-background: #f3f8fc;
+    --eurocert-cyan: #00d4ff;
+    --eurocert-cyan-light: #33c3f2;
+}
 
 * {
     margin: 0;
@@ -3885,277 +3808,4 @@ body {
     .sp-contact-description {
         font-size: 1rem;
     }
-}
-/* ============================================
-   STYLES FROM HEADER.PHP - MOVED FROM INLINE
-   ============================================ */
-
-/* Scroll Progress Bar */
-#scroll-progress {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 0%;
-  height: 5px;
-  background: var(--eurocert-cyan);
-  z-index: 9999;
-  transition: width 0.1s linear;
-}
-
-/* Sticky Header */
-.sticky-header {
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-  background-color: white;
-}
-
-/* Navbar Container */
-.navbar .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-/* Logo Responsive */
-.main-logo-img {
-  max-height: 70px;
-  height: auto;
-  width: auto;
-  object-fit: contain;
-}
-
-@media (max-width: 576px) {
-  .main-logo-img {
-    max-height: 35px !important;
-  }
-}
-
-/* Language Wrapper Mobile */
-.lang-wrapper.d-lg-none {
-  margin-left: -15px;
-}
-
-@media (min-width: 576px) {
-  .lang-wrapper.d-lg-none {
-    margin-left: 0 !important;
-  }
-}
-
-/* Primary Menu Gap */
-@media (max-width: 1280px) {
-  .primary-menu .navbar-nav {
-    gap: .25rem !important;
-  }
-}
-
-/* Offcanvas Width */
-.offcanvas-start {
-  width: 80% !important;
-  z-index: 99999999;
-}
-
-
-/* ============================================
-   STYLES FROM FOOTER.PHP - MOVED FROM INLINE
-   ============================================ */
-
-/* Footer Yellow Badges */
-.btn-yellow {
-  background-color: #FFCC00;
-  color: #000;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.btn-yellow:hover {
-  filter: brightness(1.05);
-  color: #000;
-}
-
-/* Footer Borders */
-.border {
-  border-color: var(--eurocert-dark-blue) !important;
-}
-
-.border:hover {
-  border-color: #007bff !important;
-  color: #007bff !important;
-}
-
-/* Footer SVG Transitions */
-svg {
-  transition: color 0.3s ease;
-}
-
-a:hover svg {
-  stroke: #007bff;
-}
-
-/* Footer Rating Google */
-@media (max-width: 575.98px) {
-  .rating-google {
-    transform: scale(0.7);
-    margin-left: -35px !important;
-  }
-  
-  .text-opinie {
-    margin-left: -35px !important;
-  }
-  
-  .footer-link,
-  .footer-link-sep {
-    font-size: 13px !important;
-  }
-}
-
-/* Star Rating */
-.star {
-  color: #d1d5db;
-  cursor: pointer;
-  transition: transform 0.15s ease, color 0.15s ease;
-}
-
-.star.active {
-  color: #ff8c00;
-}
-
-.star:hover {
-  transform: scale(1.2);
-}
-
-/* Footer Links */
-a:hover {
-  color: #007bff !important;
-}
-
-/* Footer Background */
-.footer-bottom-bar {
-  background-color: rgba(0, 100, 188, 0.035);
-  font-size: 12px;
-  padding-bottom: 8px;
-}
-
-
-/* ============================================
-   STYLES FROM FRONT-PAGE.PHP - MOVED FROM INLINE
-   ============================================ */
-
-/* Decorative Dots */
-.fr-dot {
-  position: absolute;
-  border-radius: 50%;
-  opacity: 0.2;
-}
-
-
-/* ============================================
-   STYLES FROM HOME.PHP (BLOG) - MOVED FROM INLINE
-   ============================================ */
-
-.blog-badge {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  border-radius: 60px;
-  font-size: 16px;
-  font-weight: 500;
-  color: var(--eurocert-cyan-light);
-  background-color: transparent;
-  letter-spacing: 0.05em;
-}
-
-.blog-section-title {
-  font-size: 36px;
-  font-weight: 700;
-  color: var(--eurocert-dark-blue);
-  line-height: 1.3;
-  margin-bottom: 1.4rem;
-}
-
-.search-wrap-custom {
-  max-width: 550px;
-  margin-inline: auto;
-}
-
-.btn-search {
-  background-color: var(--eurocert-primary-blue);
-  color: white;
-  white-space: nowrap;
-  gap: 16px;
-}
-
-.search-wrap-custom .form-control {
-  border-radius: 14px;
-  background: #f6fbff;
-  padding: 12px 18px;
-  border: 0;
-}
-
-.search-wrap-custom .btn {
-  border-radius: 14px;
-  padding: 12px 40px;
-}
-
-/* Category Pills */
-.cat-pills-custom a {
-  margin: 6px;
-}
-
-.cat-pills-custom .btn {
-  border-radius: 999px;
-  font-size: 0.85rem;
-  padding: 6px 16px;
-}
-
-/* Post Cards */
-.post-card {
-  border-radius: 14px;
-  overflow: hidden;
-  border: 1px solid #eef6fb;
-  background: #fff;
-  box-shadow: 0 6px 18px rgba(9, 30, 66, 0.04);
-}
-
-.post-card .card-body {
-  background: #f3f8fb;
-  padding: 18px;
-  min-height: 160px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.post-card .post-date {
-  font-size: 0.8rem;
-  color: #94a6b8;
-}
-
-.post-card h5 {
-  color: #07285c;
-  font-weight: 700;
-  font-size: 1.05rem;
-  margin-top: 8px;
-}
-
-.post-card .excerpt {
-  color: #3a556b;
-  font-size: 0.95rem;
-  margin-top: 8px;
-}
-
-/* Blog Responsive */
-@media (max-width: 767.98px) {
-  .site-hero h1 {
-    font-size: 1.9rem;
-  }
-  
-  .post-card .card-img-top {
-    height: 180px;
-    object-fit: cover;
-  }
-}
-
-
 }

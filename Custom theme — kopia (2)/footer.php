@@ -1,7 +1,7 @@
 </main>
 
 
-<footer class="border-top pt-5" style="color: var(--sc); position: relative; bottom: 0;">
+<footer class="border-top pt-5" style="color: var(--eurocert-dark-blue); position: relative; bottom: 0;">
   <div class="container">
     <div class="row gy-4 gy-lg-0 pb-3">
 
@@ -54,14 +54,14 @@
           >
         </div>
 
-        <p class="mb-2" style="color: var(--tc2);">
+        <p class="mb-2" style="color: var(--eurocert-medium-blue);">
           Potrzebujesz pomocy<br> lub masz pytania?
         </p><br>
 
         <!-- kontener przycisków -->
         <div class="d-flex flex-column align-items-center align-items-sm-end">
-          <a href="/kontakt" class="btn-shop btn-contact px-4 mb-3">KONTAKT →</a>
-          <a href="tel:+48223905995" class="btn-number btn-shop px-4">+48 22 390 59 95</a>
+          <a href="/kontakt" class="btn btn-primary btn-contact px-4 mb-3">KONTAKT →</a>
+          <a href="tel:+48223905995" class="btn btn-secondary btn-number px-4">+48 22 390 59 95</a>
         </div>
       </div>
 
@@ -73,33 +73,25 @@
 
     <div class="row align-items-center text-center text-lg-start pt-5" style="padding-bottom: 28px;">
       <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-        <p class="fw-semibold text-uppercase small mb-4" style="color: var(--sc);">
+        <p class="fw-semibold text-uppercase small mb-4" style="color: var(--eurocert-dark-blue);">
           KWALIFIKOWANY DOSTAWCA USŁUG ZAUFANIA
         </p>
         <div class="d-flex flex-column flex-lg-row gap-4 align-items-center align-items-lg-start">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/eidas.png" alt="eIDAS" style="max-height: 45px; object-fit: contain;">
           <div class="w-100">
         <div class="d-flex flex-wrap justify-content-center justify-content-lg-start" style="gap: 14px; margin-bottom: 14px;">
-          <span class="badge rounded-1 px-3 py-2 fw-normal btn-yellow" style="cursor: pointer; background-color: #FFCC00; color: #000;">QCert for ESig</span>
-          <span class="badge rounded-1 px-3 py-2 fw-normal btn-yellow" style="cursor: pointer; background-color: #FFCC00; color: #000;">QCert for ESeal</span>
+          <span class="badge rounded-1 px-3 py-2 fw-normal btn-yellow">QCert for ESig</span>
+          <span class="badge rounded-1 px-3 py-2 fw-normal btn-yellow">QCert for ESeal</span>
         </div>
         <div class="d-flex flex-wrap justify-content-center justify-content-lg-start" style="gap: 14px;">
-          <span class="badge rounded-1 px-3 py-2 fw-normal btn-yellow" style="cursor: pointer; background-color: #FFCC00; color: #000;">QTimeStamp</span>
-          <span class="badge rounded-1 px-3 py-2 fw-normal btn-yellow" style="cursor: pointer; background-color: #FFCC00; color: #000;">QWAC</span>
+          <span class="badge rounded-1 px-3 py-2 fw-normal btn-yellow">QTimeStamp</span>
+          <span class="badge rounded-1 px-3 py-2 fw-normal btn-yellow">QWAC</span>
         </div>
           </div>
         </div>
       </div>
-<style>
-  .btn-yellow:hover{
-    filter: brightness(1.05);
-  }
-  .btn-yellow{
-    transition: all 0.2s ease;
-  }
-</style>
       <div class="col-12 col-lg-6 text-lg-end">
-        <p class="fw-semibold text-uppercase small mb-3" style="color: var(--sc);">
+        <p class="fw-semibold text-uppercase small mb-3" style="color: var(--eurocert-dark-blue);">
           USŁUGI ZAUFANIA ŚWIADCZONE ZGODNIE ZE STANDARDAMI NA<br> TERENIE CAŁEJ UNII EUROPEJSKIEJ
         </p>
         <div class="d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center gap-4">
@@ -128,7 +120,7 @@
         </a>
 
         <a href="#" class="d-flex align-items-center justify-content-center border border-2 rounded-circle text-decoration-none"
-          style="width: 48px; height: 48px; border-color: #002855; color: #002855; transition: all 0.3s;">
+          style="width: 48px; height: 48px; transition: all 0.3s;">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
             stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
             <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
@@ -138,7 +130,7 @@
         </a>
 
         <a href="#" class="d-flex align-items-center justify-content-center border border-2 rounded-circle text-decoration-none"
-          style="width: 48px; height: 48px; border-color: #002855; color: #002855; transition: all 0.3s;">
+          style="width: 48px; height: 48px; transition: all 0.3s;">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
             stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
             <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"></path>
@@ -147,7 +139,7 @@
         </a>
 
         <a href="#" class="d-flex align-items-center justify-content-center border border-2 rounded-circle text-decoration-none"
-          style="width: 48px; height: 48px; border-color: #002855; color: #002855; transition: all 0.3s;">
+          style="width: 48px; height: 48px; transition: all 0.3s;">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
             stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
             <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
@@ -157,27 +149,6 @@
         </a>
       </div>
 
-      <style>
-        .border{
-          border-color: var(--sc) !important;
-        }
-        .border:hover {
-          border-color: #007bff !important;
-          color: #007bff !important;
-        }
-        svg {
-          transition: color 0.3s ease;
-        }
-        a:hover svg {
-          stroke: #007bff;
-        }
-        @media (max-width: 575.98px) {
-          .rating-google {
-            transform: scale(0.7);
-            margin-left: -35px !important;
-          }
-        }
-      </style>
 
 <div class="d-flex align-items-center flex-wrap ">
   <!-- Logo Google -->
@@ -206,60 +177,26 @@
   <!-- Linki -->
 
   <div class="text-opinie">
-    <style>
-      @media (max-width: 575.98px) {
-        .text-opinie {
-          margin-left: -35px !important;
-        }
-      }
-    </style>
     <a href="https://www.google.com/maps/place/EuroCert+-+Oficjalny+Punkt+Sprzedaży+-+Kwalifikowany+Podpis+Elektroniczny+%7C+Pieczęć+Elektroniczna+%7C+KSeF/@52.1188615,21.0158829,16.92z/data=!4m8!3m7!1s0x471932096afc5a85:0x51ea6f25df712ad4!8m2!3d52.1188159!4d21.01759!9m1!1b1!16s%2Fg%2F11c533yp51?entry=ttu"
       target="_blank"
       rel="noopener noreferrer"
       class="text-decoration-none footer-link"
-      style="color: var(--tc2); font-size: 15px;">
+      style="color: var(--eurocert-medium-blue); font-size: 15px;">
       (144 opinii)
     </a>
 
-    <span class="mx-sm-2 mx-1 footer-link-sep" style="color: var(--tc2); font-size: 15px;">|</span>
+    <span class="mx-sm-2 mx-1 footer-link-sep" style="color: var(--eurocert-medium-blue); font-size: 15px;">|</span>
 
     <a href="https://g.page/r/CdQqcd8lb-pREAE/review"
       target="_blank"
       rel="noopener noreferrer"
       class="text-decoration-none footer-link"
-      style="color: var(--tc2); font-size: 15px;">
+      style="color: var(--eurocert-medium-blue); font-size: 15px;">
       Wystaw opinię
     </a>
   </div>
-  <style>
-    @media (max-width: 575.98px) {
-      .footer-link,
-      .footer-link-sep {
-        font-size: 13px !important;
-      }
-    }
-  </style>
 </div>
 
-<style>
-  .star {
-    color: #d1d5db;
-    cursor: pointer;
-    transition: transform 0.15s ease, color 0.15s ease;
-  }
-
-  .star.active {
-    color: #ff8c00;
-  }
-
-  .star:hover {
-    transform: scale(1.2);
-  }
-
-  a:hover {
-    color: #007bff !important;
-  }
-</style>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
@@ -310,16 +247,16 @@
 
   
 </footer>
-<div style="background-color: #0064bc09; font-size: 12px; padding-bottom: 8px;">
+<div class="footer-bottom-bar">
     <div  class="container d-flex flex-column flex-lg-row justify-content-between align-items-center  pt-3">
       <div class="mb-3 mb-lg-0 text-center text-lg-start">
-        <a href="#" class="text-decoration-none " style="color: var(--tc2)">Polityka prywatności</a>
-        <span class="px-2" style="color: var(--tc2)">|</span>
-        <a href="#" class="text-decoration-none " style="color: var(--tc2)">Regulamin strony internetowej</a>
-        <span class="px-2" style="color: var(--tc2)">|</span>
-        <a href="#" class="text-decoration-none " style="color: var(--tc2)">Regulamin usług zaufania</a>
+        <a href="#" class="text-decoration-none " style="color: var(--eurocert-medium-blue)">Polityka prywatności</a>
+        <span class="px-2" style="color: var(--eurocert-medium-blue)">|</span>
+        <a href="#" class="text-decoration-none " style="color: var(--eurocert-medium-blue)">Regulamin strony internetowej</a>
+        <span class="px-2" style="color: var(--eurocert-medium-blue)">|</span>
+        <a href="#" class="text-decoration-none " style="color: var(--eurocert-medium-blue)">Regulamin usług zaufania</a>
       </div>
-      <div style="color: var(--tc2);" class="text-center text-lg-start">
+      <div style="color: var(--eurocert-medium-blue);" class="text-center text-lg-start">
         Centrum kwalifikowane Eurocert<br>
         EuroCert Sp. z o.o., Puławska 479, 02-844 Warszawa, NIP 5251252979
       </div>

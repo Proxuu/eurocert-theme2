@@ -39,8 +39,8 @@ get_header();
                             <h1 class="fr-hero-title">Kwalifikowany<br>podpis elektroniczny</h1>
                             <p class="fr-hero-description">Podpisuj elektronicznie dokumenty PDF, XML i inne w formacie XAdES i PAdES z certyfikatem kwalifikowanym od EuroCert.</p>
                             <div class="fr-hero-buttons">
-                                <button class="fr-btn fr-btn-primary">SPRAWDŹ WARIANTY</button>
-                                <button class="fr-btn fr-btn-secondary">PORÓWNAJ FUNKCJONALNOŚCI</button>
+                                <button class="btn btn-primary">SPRAWDŹ WARIANTY</button>
+                                <button class="btn btn-secondary">PORÓWNAJ FUNKCJONALNOŚCI</button>
                             </div>
                             <div class="fr-hero-features">
                                 <div class="fr-feature-item">
@@ -60,8 +60,8 @@ get_header();
                             <h1 class="fr-hero-title-mobile">Kwalifikowany<br>podpis elektroniczny</h1>
                             <p class="fr-hero-description-mobile">Podpisuj elektronicznie dokumenty PDF, XML i inne w formacie XAdES i PAdES.</p>
                             <div class="fr-hero-buttons-mobile">
-                                <button class="fr-btn fr-btn-primary">SPRAWDŹ WARIANTY →</button>
-                                <button class="fr-btn fr-btn-secondary">PORÓWNAJ FUNKCJONALNOŚCI</button>
+                                <button class="btn btn-primary">SPRAWDŹ WARIANTY →</button>
+                                <button class="btn btn-secondary">PORÓWNAJ FUNKCJONALNOŚCI</button>
                             </div>
                             <div class="fr-hero-features-mobile">
                                 <div class="fr-feature-item">
@@ -278,8 +278,8 @@ get_header();
                         </div>
                         <p class="fr-text mb-4">Postępuj zgodnie z instrukcją krok po kroku i zacznij korzystać z kwalifikowanego podpisu elektronicznego, aby maksymalnie zabezpieczyć swoje dane.</p>
                         <div class="fr-button-group">
-                            <button class="fr-btn fr-btn-primary" style="max-width: fit-content;">WYBIERZ WARIANT</button>
-                            <button class="fr-btn fr-btn-secondary" style="max-width: fit-content;">POBIERZ</button>
+                            <button class="btn btn-primary" style="max-width: fit-content;">WYBIERZ WARIANT</button>
+                            <button class="btn btn-secondary" style="max-width: fit-content;">POBIERZ</button>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -663,7 +663,7 @@ get_header();
                         <div class="fr-mobile-product-header">
                             <h4>Kwalifikowany podpis elektroniczny na karcie</h4>
                             <p>QES Sign Classic</p>
-                            <button class="fr-btn fr-btn-primary" style="max-height: 30px; width: 100%;">KUP ONLINE</button>
+                            <button class="btn btn-primary" style="max-height: 30px; width: 100%;">KUP ONLINE</button>
                         </div>
                         <ul class="fr-mobile-product-features">
                             <li>Nielimitowana ilość podpisów</li>
@@ -676,7 +676,7 @@ get_header();
                         <div class="fr-mobile-product-header">
                             <h4>Kwalifikowany podpis elektroniczny w chmurze</h4>
                             <p>QES Sign Cloud</p>
-                            <button class="fr-btn fr-btn-primary" style="max-height: 30px; width: 100%;">KUP ONLINE</button>
+                            <button class="btn btn-primary" style="max-height: 30px; width: 100%;">KUP ONLINE</button>
                         </div>
                         <ul class="fr-mobile-product-features">
                             <li>Nielimitowana ilość podpisów</li>
@@ -941,7 +941,7 @@ get_header();
                                             <div class="fr-os-icon mb-3">
                                                 <svg width="80" height="80" viewBox="0 0 24 24" fill="none"><path d="M3 5.45L9.61 4.64L9.61 11.72L3 11.72L3 5.45ZM10.39 4.44L21 2.96V11.73H10.39V4.44ZM3 12.28L9.61 12.28L9.61 19.36L3 18.55L3 12.28ZM10.39 12.28L21 12.28V21.04L10.39 19.56V12.28Z" fill="#808cac"></path></svg>
                                             </div>
-                                            <a href="#" class="fr-btn fr-btn-primary">WINDOWS</a>
+                                            <a href="#" class="btn btn-primary">WINDOWS</a>
                                             <p class="fr-download-req">Windows 10 i nowsze</p>
                                         </div>
                                     </div>
@@ -950,7 +950,7 @@ get_header();
                                             <div class="fr-os-icon mb-3">
                                                 <svg width="80" height="80" viewBox="0 0 24 24" fill="none"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701" fill="#808cac"></path></svg>
                                             </div>
-                                            <a href="#" class="fr-btn fr-btn-primary">MACOS</a>
+                                            <a href="#" class="btn btn-primary">MACOS</a>
                                             <p class="fr-download-req">macOS 10.15 i nowsze</p>
                                         </div>
                                     </div>
@@ -992,7 +992,7 @@ get_header();
                                 <p class="fr-text mb-3">Uwaga! Przed uruchomieniem oprogramowania konieczne jest zakup odpowiedniego certyfikatu.</p>
                             </div>
                             <div class="col-lg-4 text-lg-end">
-                                <a href="#" class="fr-btn fr-btn-primary">WYBIERZ WARIANT</a>
+                                <a href="#" class="btn btn-primary">WYBIERZ WARIANT</a>
                             </div>
                         </div>
                     </div>

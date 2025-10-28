@@ -5,21 +5,9 @@ get_header();
 
     <section class="fr-hero-section">
             <div class="fr-decorative-bg">
-                <div class="fr-dot" style="width: 8px; height: 8px; top: 10%; left: 5%; transform: rotate(0deg); opacity: 0.2;"></div>
-                <div class="fr-dot" style="width: 12px; height: 12px; top: 17%; left: 16%; transform: rotate(30deg); opacity: 0.3;"></div>
-                <div class="fr-dot" style="width: 16px; height: 16px; top: 24%; left: 27%; transform: rotate(60deg); opacity: 0.4;"></div>
-                <div class="fr-dot" style="width: 20px; height: 20px; top: 31%; left: 38%; transform: rotate(90deg); opacity: 0.5;"></div>
-                <div class="fr-dot" style="width: 24px; height: 24px; top: 38%; left: 49%; transform: rotate(120deg); opacity: 0.2;"></div>
-                <div class="fr-dot" style="width: 8px; height: 8px; top: 45%; left: 60%; transform: rotate(150deg); opacity: 0.3;"></div>
-                <div class="fr-dot" style="width: 12px; height: 12px; top: 52%; left: 71%; transform: rotate(180deg); opacity: 0.4;"></div>
-                <div class="fr-dot" style="width: 16px; height: 16px; top: 59%; left: 82%; transform: rotate(210deg); opacity: 0.5;"></div>
-                <div class="fr-dot" style="width: 20px; height: 20px; top: 66%; left: 93%; transform: rotate(240deg); opacity: 0.2;"></div>
-                <div class="fr-dot" style="width: 24px; height: 24px; top: 73%; left: 14%; transform: rotate(270deg); opacity: 0.3;"></div>
-                <div class="fr-dot" style="width: 8px; height: 8px; top: 80%; left: 25%; transform: rotate(300deg); opacity: 0.4;"></div>
-                <div class="fr-dot" style="width: 12px; height: 12px; top: 87%; left: 36%; transform: rotate(330deg); opacity: 0.5;"></div>
-                <div class="fr-dot" style="width: 16px; height: 16px; top: 14%; left: 47%; transform: rotate(360deg); opacity: 0.2;"></div>
-                <div class="fr-dot" style="width: 20px; height: 20px; top: 21%; left: 58%; transform: rotate(390deg); opacity: 0.3;"></div>
-                <div class="fr-dot" style="width: 24px; height: 24px; top: 28%; left: 69%; transform: rotate(420deg); opacity: 0.4;"></div>
+                <?php for ($i = 0; $i < 15; $i++): ?>
+                    <div class="fr-dot" style="background-color: rgba(0, 100, 188, 0.3); width: <?= 8 + $i * 1.6 ?>px; height: <?= 8 + $i * 1.6 ?>px; top: <?= 10 + $i * 5.5 ?>%; left: <?= 5 + $i * 6.4 ?>%; transform: rotate(<?= $i * 30 ?>deg);"></div>
+                <?php endfor; ?>
             </div>
             <div class="container">
                 
@@ -34,8 +22,8 @@ get_header();
                             <h1 class="fr-hero-title">Kwalifikowana <br>pieczęć elektroniczna</h1>
                             <p class="fr-hero-description">Zabezpiecz swoje dokumenty firmowe profesjonalną pieczęcią elektroniczną zgodną z eIDAS.</p>
                             <div class="fr-hero-buttons">
-                                <button class="fr-btn fr-btn-primary">WYBIERZ PIECZĘĆ →</button>
-                                <button class="fr-btn fr-btn-secondary">DOWIEDZ SIĘ WIĘCEJ</button>
+                                <button class="btn btn-primary">WYBIERZ PIECZĘĆ →</button>
+                                <button class="btn btn-secondary">DOWIEDZ SIĘ WIĘCEJ</button>
                             </div>
                             
                         </div>
@@ -46,8 +34,8 @@ get_header();
                             <h1 class="fr-hero-title-mobile">Kwalifikowany<br>podpis elektroniczny</h1>
                             <p class="fr-hero-description-mobile">Podpisuj elektronicznie dokumenty PDF, XML i inne w formacie XAdES i PAdES.</p>
                             <div class="fr-hero-buttons-mobile">
-                                <button class="fr-btn fr-btn-primary">SPRAWDŹ WARIANTY →</button>
-                                <button class="fr-btn fr-btn-secondary">PORÓWNAJ FUNKCJONALNOŚCI</button>
+                                <button class="btn btn-primary">SPRAWDŹ WARIANTY →</button>
+                                <button class="btn btn-secondary">PORÓWNAJ FUNKCJONALNOŚCI</button>
                             </div>
                             <div class="fr-hero-features-mobile">
                                 <div class="fr-feature-item">
